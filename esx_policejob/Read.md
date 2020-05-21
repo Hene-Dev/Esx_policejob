@@ -1,7 +1,9 @@
 Esx_policjob by @indilo53 but modified by @Hene-dev
 
 Start those resources
-1. start esx_policejob  
+1. start esx_society
+2. start esx_billing
+3. start esx_policejob  
 
 You can change language in Locales
 
