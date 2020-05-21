@@ -521,7 +521,7 @@ Config.AuthorizedVehicles = {
 
 	},
 
-	paallikko = {
+	 = {
 	
 		{	
 		    model = 'police2',
