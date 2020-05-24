@@ -492,17 +492,18 @@ function OpenPoliceActionsMenu()
 
 		if data.current.value == 'citizen_interaction' then
 			local elements = {
-				{label = _U('id_card'),			value = 'identity_card'},
-				{label = _U('search'),			value = 'body_search'},
-				{label = _U('handcuff'),		value = 'handcuff'},
-				{label = _U('handcuff1'),		value = 'handcuff1'},
-				{label = _U('drag'),			value = 'drag'},
+				{label = _U('id_card'),		value = 'identity_card'},
+				{label = _U('search'),		value = 'body_search'},
+				{label = _U('handcuff'),	value = 'handcuff'},
+				{label = _U('handcuff1'),	value = 'handcuff1'},
+				{label = _U('drag'),		value = 'drag'},
 				{label = _U('put_in_vehicle'),	value = 'put_in_vehicle'},
 				{label = _U('out_the_vehicle'),	value = 'out_the_vehicle'},
-				{label = _U('fine'),			value = 'fine'},
+				{label = _U('fine'),		value = 'fine'},
 				{label = _U('unpaid_bills'),	value = 'unpaid_bills'},
-				{label = "Gunpowdertest",			value = 'gsr_test'},
+				{label = "Gunpowdertest",	value = 'gsr_test'},
 				{label = "Communityservice",	value = 'communityservice'}
+				{label = "Revive"               value ='revive
 			}
 		
 			if Config.EnableLicenses then
